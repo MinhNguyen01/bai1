@@ -1,0 +1,149 @@
+img{
+    max-width: 100%;
+   max-height: 100%;
+   text-align: center;
+   justify-content: center;
+}
+.carousel-indicators{
+    display: none;
+}
+dl, ol, ul {
+    margin: 0 !important;
+}
+.parent {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent .header_left {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.parent .header_right {
+    flex: 0 0 80%;
+    max-width: 80%;
+}
+.parent .header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.parent .header_right .header_right-top {
+    display: flex;
+    align-items: center;
+}
+.parent .header_right .header_right-top ul,
+.parent .header_right .header_right-bottom ul {
+    display: flex;
+    align-items: center;
+}
+.parent .header_right .header_right-top ul li,
+.parent .header_right .header_right-bottom ul li {
+    list-style: none;
+}
+.parent .header_right .header_right-top ul li a,
+.parent .header_right .header_right-bottom ul li a {
+    text-decoration: none;
+}
+
+.parent .header_right .header_right-top ul li {
+    padding-right: 10px;
+    border-right: 1px solid wheat;
+}
+.parent .header_right .header_right-top ul li:last-child {
+    border: none;
+}
+.parent .header_right .header_right-top ul li a,
+.parent .header_right .header_right-bottom ul li a {
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.phone{
+    text-decoration: none;
+}
+/*main*/
+.nar ,
+.p1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.p1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+}
+.nar1{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+.about_left{
+    flex: 40%;
+    max-width: 40%;
+}
+.about_right{
+    flex: 60%;
+    max-width: 60%;
+}
+.about_left img{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.abuot_right_top{
+    width: 500px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 40px;
+}
+p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.about .image {
+    max-width: 100%;
+    height: auto;
+}
+.about .image img {
+    width: 100%;
+    height: 100%;
+}
+.about .wrapper {
+    padding-left: 50px;
+}
+.about .content {
+    padding-left: 20px;
+}
+.about .content h4 {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 30px;
+}
+.about .content p {
+    text-align: left;
+    font-size: 16px;
+}
+.about .content {
+    position: relative;
+}
+.about .content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 25px;
+    background: green;
+}

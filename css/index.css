@@ -1,0 +1,16 @@
+body{
+    background: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo{
+    
+}
+.header_logo a{
+    text-decoration: none;
+    color:white;
+}

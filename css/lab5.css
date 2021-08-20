@@ -1,0 +1,12 @@
+.images img{
+    width: 60px;
+    height: 60px;
+}.images{
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.images p{
+    color: rgb(33, 33, 252);
+}

@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    flex: 30%;
+    max-width: 30%;
+    margin-left: 55px;
+}
+.right{
+    flex:  60%;
+    max-width: 60%;
+    margin-right: 80px;
+}
+.parent .right ul{
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+}
+.parent .right ul a{
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    color: cadetblue;
+}
+.parent .right ul a:hover{
+    color: rgb(66, 106, 107);
+}
+
